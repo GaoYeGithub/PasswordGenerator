@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Generator</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <script src="static/script.js"></script>
+</head>
+<body>
+  <center>
+    <img src="https://cloud-puhemcmfs.vercel.app/0image.png" width="250" height="250">
+    <h2> Hiii Ye👋 Welcome Back! Let's safeguard your accounts. </h2>
+    <br>
+    <form class="inputBox" action="/add" method="POST">
+      <h2><u> Random Password Generator </u></h2>
+      <input type="text" name="service" placeholder="Service" required>
+      <input type="text" name="password" placeholder="Create Password" id="password" readonly required>
+      <div id="btn" onclick='getPassword()'> Generate Password </div>
+      <button type="submit">Save Password</button>
+    </form>
+    <br>
+    <a href="/passwords">View Saved Passwords</a>
+  </center>
+</body>
+</html>
