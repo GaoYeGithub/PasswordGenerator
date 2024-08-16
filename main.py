@@ -27,7 +27,7 @@ def passwords():
 
 @app.route('/get_password')
 def get_password():
-    password = os.environ['pass1']
+    password = os.environ['password']
     return jsonify({'password': password})
     
 if __name__ == '__main__':
